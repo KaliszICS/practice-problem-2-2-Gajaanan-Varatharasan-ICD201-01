@@ -2,7 +2,7 @@
 
 def q1(): 
   #Write Assignment code here
-  number=eval(input("Input an integer: "))
+  number=int(input("Input an integer: "))
   if number==5:
     print("The number is Five")
   else:
@@ -10,21 +10,21 @@ def q1():
 
 def q2(): 
   #Write Assignment code here
-  number=eval(input("Input a number: "))
+  number=float(input("Input a number: "))
   if number>0:
     print("Positive")
   else:
     print("Negative")
 def q3(): 
   #Write Assignment code here
-  number=eval(input("Input an integer: "))
+  number=int(input("Input an integer: "))
   if number%2==0:
     print("Even")
   else:
     print("Odd")
 def q4(): 
   #Write Assignment code here
- word=input('Type "Hello": ')
+ word=int('Type "Hello": ')
  if word=="Hello":
   print("The word is Hello")
  else:
